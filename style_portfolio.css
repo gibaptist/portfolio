@@ -1,0 +1,37 @@
+.tabela {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5);
+    transition: width 0.8s;
+    width: 800px;
+}
+
+
+.tabela:hover {
+    width: 900px;
+}
+
+.links2 {
+background-color: beige;
+margin-top: 1rem;
+margin-left: 21rem;
+padding: 1rem 1rem;
+border-radius: 1rem;                                     
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+display:flex;
+justify-content: space-evenly;
+}
+
+.links2 a {
+    text-decoration: none;
+    color: rgba(90, 56, 56, 0.678);
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+.linha {
+    height: 1.5rem;
+    border-left: 1px solid#000;
+}
